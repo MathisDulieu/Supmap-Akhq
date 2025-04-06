@@ -1,6 +1,13 @@
 micronaut:
   server:
     port: 8080
+  security:
+    token:
+      jwt:
+        signatures:
+          secret:
+            generator:
+              secret: "${MICRONAUT_SECURITY_TOKEN_JWT}"
 
 akhq:
   connections:
