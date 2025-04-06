@@ -7,10 +7,10 @@ micronaut:
         signatures:
           secret:
             generator:
-              secret: "${MICRONAUT_SECURITY_TOKEN_JWT}"
+              secret: "Jf8f7x9s2Kl0pQr3mNbVcXzA1wEyUiOoPaLkD5hG6tT7jR4eS8zC9bF2vM3nX0qW"
 
 akhq:
   connections:
     my-cluster:
       properties:
-        bootstrap.servers: "${KAFKA_BOOTSTRAP_SERVERS}"
+        bootstrap.servers: "kafka.railway.internal:29092"
