@@ -6,6 +6,7 @@ services:
       - "8080:8080"
     environment:
       KAFKA_BOOTSTRAP_SERVERS: ${{ shared.KAFKA_BOOTSTRAP_SERVERS }}
+      MICRONAUT_SECURITY_TOKEN_JWT_SIGNATURES_SECRET_GENERATOR_SECRET: ${{ shared.MICRONAUT_SECURITY_TOKEN_JWT }}
     restart: unless-stopped
     networks:
       - kafka-network
