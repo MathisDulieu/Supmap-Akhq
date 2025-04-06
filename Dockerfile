@@ -1,7 +1,7 @@
 FROM tchiotludo/akhq:latest
 
-COPY ./src/main/resources/application.properties /app/application.properties
+COPY application.yml /app/application.yml
 
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-Dmicronaut.config.files=/app/application.properties", "-jar", "/app/akhq.jar"]
+ENTRYPOINT ["java", "-jar", "/app/akhq.jar"]
