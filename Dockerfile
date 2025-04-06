@@ -1,6 +1,6 @@
 FROM tchiotludo/akhq:latest
 
-COPY application.yml /app/application.yml
+COPY ./src/main/resources/application.properties /app/resources/application.properties
 
 EXPOSE 8080
 

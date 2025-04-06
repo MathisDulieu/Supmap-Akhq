@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "micronaut.security.token.jwt.signatures.secret.generator.secret",
+      "type": "java.lang.String",
+      "description": "Description for micronaut.security.token.jwt.signatures.secret.generator.secret."
+    },
+    {
+      "name": "akhq.connections.my-cluster.properties.bootstrap.servers",
+      "type": "java.lang.String",
+      "description": "Description for akhq.connections.my-cluster.properties.bootstrap.servers."
+    }
+  ]
+}
