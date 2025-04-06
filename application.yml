@@ -6,4 +6,4 @@ akhq:
   connections:
     my-cluster:
       properties:
-        bootstrap.servers: "${{ shared.KAFKA_BOOTSTRAP_SERVERS }}"
+        bootstrap.servers: "${KAFKA_BOOTSTRAP_SERVERS}"
